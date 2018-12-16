@@ -1,0 +1,9 @@
+a = 0
+a += 1
+print(a) # a=1
+a -= 5
+print(a) # a=-4
+a *= 2
+print(a) # a=-8
+a /= 4
+print(a) # a=-4
