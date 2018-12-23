@@ -1,0 +1,3 @@
+a = 107 #0x6B
+b = a & 0x0F
+print(b)

@@ -3,9 +3,11 @@
 #   print(i)
 
 def getPrime(x):
+  # 2로 나눠 떨어지면 2가 약수. return.
   if x % 2 == 0:
     return
 
+  # range: start, end, interval
   for i in range(3, int(x/2), 2):
     if x % i == 0:
       break
